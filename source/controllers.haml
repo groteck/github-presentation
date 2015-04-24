@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title= data.page.title || "Presentation"
+    = stylesheet_link_tag "all"
+    = javascript_include_tag  "controllers"
+  %body.controllers-body
+    .controllers
+      %a#btn-left()
+      .up-down
+        %a#btn-up()
+        %a#btn-down()
+      %a#btn-right()
