@@ -1,0 +1,1 @@
+(function(){Reveal.initialize({controls:!0,progress:!0,history:!0,rollingLinks:!1,slideNumber:!0,theme:Reveal.getQueryHash().theme||"default",transition:Reveal.getQueryHash().transition||"default",dependencies:[{src:"javascripts/classList.js",condition:function(){return!document.body.classList}}]})}).call(this);
